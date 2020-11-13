@@ -44,6 +44,6 @@ int main()
     //cout<<coche.bastidor.inicio<<coche.bastidor.letra<<coche.bastidor.fin<<endl;
     cout<<coche.bastidorcompleto<<endl;
 
-
+//sdfsfsfsfs
     return 0;
 }
