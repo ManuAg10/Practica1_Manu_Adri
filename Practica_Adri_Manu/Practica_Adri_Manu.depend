@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1605273129 source:c:\users\manua\onedrive\documentos\github\practica1_manu_adri\practica_adri_manu\main.cpp
+	<iostream>
+
+1605273344 source:c:\users\manua\onedrive\documentos\github\practica1_manu_adri\practica_adri_manu\coche.cpp
+	<iostream>
+	<ctime>
+	<iomanip>
+
