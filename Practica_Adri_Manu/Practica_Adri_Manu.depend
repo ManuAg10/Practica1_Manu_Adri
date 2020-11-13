@@ -1,9 +1,14 @@
 # depslib dependency file v1.0
-1605273129 source:c:\users\manua\onedrive\documentos\github\practica1_manu_adri\practica_adri_manu\main.cpp
+1605274976 source:c:\users\manua\onedrive\documentos\github\practica1_manu_adri\practica_adri_manu\main.cpp
 	<iostream>
+	"coche.h"
 
-1605273344 source:c:\users\manua\onedrive\documentos\github\practica1_manu_adri\practica_adri_manu\coche.cpp
+1605274869 source:c:\users\manua\onedrive\documentos\github\practica1_manu_adri\practica_adri_manu\coche.cpp
 	<iostream>
 	<ctime>
 	<iomanip>
+	"coche.h"
+
+1605274869 c:\users\manua\onedrive\documentos\github\practica1_manu_adri\practica_adri_manu\coche.h
+	<iostream>
 
