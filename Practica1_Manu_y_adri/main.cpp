@@ -13,20 +13,12 @@ int main()
     srand(time(NULL));
     struct Coche
     {
-
-        struct Bastidor
-        {
-            string inicio;
-            string letra;
-            string fin;
-        } bastidor;
-
         string matricula;
         string grado;
         string modelo;
         string color;
         string estado;
-        string bastidorcompleto;
+        string bastidor;
 
 
 
@@ -34,15 +26,13 @@ int main()
     coche.color = listcolor[rand()%6];
     coche.modelo = listmodelo[rand()%4];
     coche.estado = listestado[rand()%5];
-    coche.bastidor.inicio = listnumeros[rand()%10] + listnumeros[rand()%10];
-    coche.bastidor.letra = listletras[rand()%27];
-    coche.bastidor.fin = listnumeros[rand()%10] + listnumeros[rand()%10] + listnumeros[rand()%10] + listnumeros[rand()%10];
-    coche.bastidorcompleto = coche.bastidor.inicio + coche.bastidor.letra + coche.bastidor.fin;
+     coche.bastidor= listnumeros[rand()%10] + listnumeros[rand()%10] +listletras[rand()%27] +listnumeros[rand()%10] + listnumeros[rand()%10] + listnumeros[rand()%10] + listnumeros[rand()%10];
 
 
 
-    //cout<<coche.bastidor.inicio<<coche.bastidor.letra<<coche.bastidor.fin<<endl;
-    cout<<coche.bastidorcompleto<<endl;
+
+    cout<<coche.bastidor<<endl;
+
 
 //sdfsfsfsfs
     return 0;

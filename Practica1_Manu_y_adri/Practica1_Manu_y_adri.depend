@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1605271255 source:c:\users\adriim_\documents\github\practica1_manu_adri\practica1_manu_y_adri\main.cpp
+	<iostream>
+	<ctime>
+	<iomanip>
+
